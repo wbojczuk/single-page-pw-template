@@ -43,16 +43,23 @@ body{
     font-size: 14px;
 }
 
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+    :root{
+        font-size: 12px;
+    }
+}
+
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
     :root{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
  
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
     :root{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
