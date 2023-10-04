@@ -1,0 +1,16 @@
+#reviewSection{
+    background-color: var(--primary-color);
+    padding: 2vw 0;
+}
+
+#reviewSection h2{
+    color: white;
+    margin-bottom: 2vw;
+}
+
+#leaveReviewWrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2vw;
+    padding: 1vw 3vw;
+}
